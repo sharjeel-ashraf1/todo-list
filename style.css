@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background: gray;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.main {
+    background: white;
+    padding: 20px;
+    width: 400px;
+    border-radius: 10px;
+
+}
+
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.inputpart {
+    display: flex;
+    gap: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 8px;
+}
+
+#addbutton {
+    background: #1976d2;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.removeBtn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 8px;
+}
+
+
+
+
+
+
+
+
